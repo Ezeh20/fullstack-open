@@ -16,11 +16,10 @@ sequenceDiagram
     
     Browser->>Browser: Updates the UI with the new note
     
-    User->>Browser: Refreshes the page (To see the new notes if any)
+    User->>Browser: Refreshes the page (To see new notes if any)
     Browser->>Server: Sends HTTP GET request to fetch all notes
     activate Server
     Server-->>Browser: Responds with the list of notes
     deactivate Server
     Browser->>Browser: Renders the updated notes list
-   end
 ```
