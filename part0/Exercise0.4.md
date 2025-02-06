@@ -22,5 +22,5 @@ sequenceDiagram
     Server-->>Browser: Responds with the list of notes
     deactivate Server
     Browser->>Browser: Renders the updated notes list
-end
+   end
 ```
